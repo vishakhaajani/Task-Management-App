@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, Helvetica Neue, Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+h4{
+    color: #008080;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.register , .home{
+    background-image: url('../Images/auth-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login{
+    background-image: url('../Images/log-bg.jpg') !important;
+}
+
+.home{
+    background-image: url('../Images/home-bg.jpg') !important;
+}
+
+.register-form{
+    border-radius: 12px;
+}
+form{
+    position: relative;
+}
+span{
+    position: absolute;
+    right: 0;
+    padding: 15px 15px 15px;
+    font-size: 15px;
+    color: #66615b;
+}
+.linkLogin , .linkRegister{
+    font-size: 15px;
+    padding-left: 0;
+    color: #008080;
+}
+.linkRegister{
+    color: #008080;
+}
+.form-control{
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #66615b;
+    line-height: normal;
+    height: auto;
+    font-size: 14px;
+    background-color: #fff;
+}
+.form-control:focus{
+    border: 1px solid #9a9a9a;
+    outline: none;
+    box-shadow: none;
+}
+h4{
+    font-weight: 400;
+}
+.form-check-input{
+    width: 24px;
+    height: 24px;
+}
+#exampleCheck1{
+    box-shadow: none;
+    background-color: #66615b;
+    border: none;
+    opacity: 0.7;
+}
+.form-check-input:focus{
+    box-shadow: none;
+    background-color: #66615b !important;
+    border: none;
+}
+label{
+    color: #66615b;
+    font-size: .8571em;
+    padding-left: 15px;
+}
+.register-btn button{
+    padding: 11px 22px;
+    background-color: #008080dd;
+    color: white;
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    border: none;
+}
+.login-btn button{
+    padding: 11px 22px;
+    background-color:#008080dd;
+    font-weight: 600;
+    font-size: .8571em;
+    line-height: 1.35em;
+    border: none;
+}
+
+.register-btn button:hover , .register-btn button:focus{
+    background-color: #008080 !important;
+    color: white !important;
+}
+
+.login-btn button:hover , .login-btn button:focus{
+    background-color: #008080 !important;
+}
